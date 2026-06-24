@@ -1,9 +1,9 @@
 [package]
 name = "bluetrace"
-version = "0.0.0"
+version = "0.0.1"
 description = "A PCB design EDA software."
 authors = ["Canmi(Canmi21) <t@canmi.icu>"]
-license = "GPL-3.0-or-later"
+license = "MIT"
 repository = "https://github.com/canmi21/bluetrace.git"
 edition = "2024"
 rust-version = "1.95"
@@ -15,7 +15,7 @@ name = "Bluetrace"
 path = "src/main.rs"
 
 [lib]
-name = "bluetrace_lib"
+name = "libt"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
